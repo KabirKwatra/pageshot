@@ -1,16 +1,16 @@
-# pageshot [![][now-deploy-src]](#deploy)
+# big-pageshot [![][now-deploy-src]](#deploy)
 
-Pageshot as a service.
+Pageshot as a service but bigger.
 
 ## Usage
 
-- __Web UI__: https://shot.now.sh
-- __Endpoint__: https://shot.now.sh/shot
+- __Web UI__: https://bigshot.now.sh
+- __Endpoint__: https://bigshot.now.sh/shot
 
 Examples:
 
-- https://shot.now.sh/shot?url=https://google.com
-- https://shot.now.sh/shot?url=https://github.com&full=true
+- https://bigshot.now.sh/shot?url=https://google.com
+- https://bigshot.now.sh/shot?url=https://github.com&full=true
 
 Query Params:
 
@@ -24,12 +24,12 @@ Query Params:
 
 - to [now.sh](https://zeit.co/now):
 ```
-now amio/pageshot
+now KabirKwatra/pageshot
 ```
 
 - using [Dockerfile](Dockerfile):
 ```
-docker pull amio/pageshot
+docker pull KabirKwatra/pageshot
 ```
 
 - running locally (require Google Chrome installed):
@@ -38,6 +38,8 @@ npm start
 ```
 
 ## License
+
+[pageshot by Amio](https://github.com/amio/pageshot)
 
 ISC © [Amio](https://github.com/amio)
 
