@@ -22,7 +22,7 @@ module.exports = async function pageshot (ctx) {
   try {
     const page = await (await getBrowser()).newPage()
     await page.setViewport(viewport)
-    await page.goto(url, {timeout: 10000})
+    await page.goto(url, {timeout: 10000000})
     response.body = await page.screenshot({fullPage})
     response.type = 'image/png'
     page.close()
